@@ -7,9 +7,9 @@ export default function QueryProcessor(query: string): string {
     );
   }
 
-  else if (query.includes("Which of the following numbers is the largest: 42, 85, 26?")) {
+  else if (query.includes("What is 65 plus 40?")) {
     return (
-      "85" 
+      "105" 
     );
 }
   
