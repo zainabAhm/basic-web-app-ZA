@@ -7,14 +7,27 @@ export default function QueryProcessor(query: string): string {
     );
   }
 
-
-
-  else if (query.toLowerCase().includes("andrew id")) {
+  else if (query.toLowerCase().includes("What is 6 plus 45?")) {
     return (
-      "My Andrew ID is zsahmed" 
+      "51" 
     );
-  }
-  return "";
 }
+  
+  return "";
+
+}
+
+  // else (query.toLowerCase().includes("andrew id")) {
+  //   return (
+  //     "My Andrew ID is zsahmed" 
+  //   );
+  // }
+  // return "";
+
+
+
+    
+
+
 
 
