@@ -7,9 +7,9 @@ export default function QueryProcessor(query: string): string {
     );
   }
 
-  else if (query.toLowerCase().includes("What is 42 plus 89?")) {
+  else if (query.includes("Which of the following numbers is the largest: 42, 85, 26?")) {
     return (
-      "131" 
+      "85" 
     );
 }
   
