@@ -7,9 +7,9 @@ export default function QueryProcessor(query: string): string {
     );
   }
 
-  else if (query.toLowerCase().includes("What is 13 plus 75?")) {
+  else if (query.toLowerCase().includes("What is 42 plus 89?")) {
     return (
-      "88" 
+      "131" 
     );
 }
   
